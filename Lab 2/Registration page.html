@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="Utf-8">
+        <title>Registration page</title>
+    </head>
+    <body>
+        <form action="Thankyou.html" method="get" >
+            <div>
+            <label for="First Name">First Name</label>
+            <input type="text" name="First Name" id="First Name"required placeholder="First Name">
+            </div>
+            <br>
+            <div>
+            <lable for="Last Name">Last Name</lable>
+            <input type="text" name="Last Name" id="Last Name" required placeholder="Last Name">
+            </div>
+            <br>
+            <div>
+                <label for="Password">Password</label>
+                <input type="password" required id="Password" name="Password">
+            </div>
+            <br>
+            <div>
+                <label for="Repeat password">Repeat password</label>
+                <input type="password" required id="Repeat password" name="Repeat password">
+            </div>
+            <br>
+            <div>
+                <label for="User Picture">User Picture</label>
+                <input type="file" id="User Picture" name="User Picture">
+            </div>
+            <br>
+            <div>
+            
+            <fieldset> 
+            <legend>Gender</legend>
+                
+                <input type="radio" id="male" name="Gender">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="Gender">
+                <label for="male">Female</label>
+            </fieldset>
+            </div> 
+            <br>
+            <div>
+                <label>Faculty:</label>
+                <select name="Faculty">
+                    <option value="Engineering">Engineering</option>
+                    <option value="Science">Science</option>
+                    <option value="Business">Business</option>
+                    <option value="Arts">Arts</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <fieldset>
+                    <legend>Interests</legend>
+                <input type="checkbox" value="Programming" name="Interests" id="Programming">
+                <label for="Programming">Programming</label>
+                <input type="checkbox" value="Reading" name="Interests" id="Reading">
+                <label for="Reading">Reading</label>
+                <input type="checkbox" value="Swimming" name="Interests" id="Swimming">
+                <label for="Swimming">Swimming</label>
+                </fieldset>
+            </div>
+            <br>
+            <div>
+                <h3>About you</h3>
+                <br>
+                <textarea width="400px" height="400px"></textarea>
+            </div>
+            <br>
+            <div>
+                <input type="reset">
+                <input type="submit">
+            </div>
+            
+
+
+        </form>
+        
+
+        
+    </body>
+</html>
