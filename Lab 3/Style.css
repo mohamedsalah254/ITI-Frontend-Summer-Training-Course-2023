@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#Menu {
+    padding: 60px;
+    background-color: #1a1a1a;
+    padding-left: 120px;
+}
+
+.header {
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    width: 100%;
+    margin: 50px auto;
+
+}
+
+.title {
+    color: #474747;
+    font-size: 48px;
+    margin: 60px auto 0;
+    font-family: Raleway, sans-serif;
+    font-weight: 700px;
+    text-align: center;
+    font-size: 3rem;
+    line-height: 1.1;
+    padding: 0;
+    color: #fff;
+    padding: 0;
+}
+
+.descp {
+    color: #fff;
+    font-family: Raleway, sans-serif;
+    width: fit-content;
+    margin: 30px auto 0;
+    font-size: 1.125rem;
+}
+
+.Freepik {
+    color: #d99d0d !important;
+    font-weight: 700;
+    text-decoration: none;
+
+}
+
+.container {
+
+    padding: 10px;
+    margin: 80px;
+    margin-top: 40px;
+
+}
+
+.cardDetails {
+
+    color: #fff;
+    text-align: center;
+}
+
+.card {
+    padding: 10px;
+    text-decoration: none;
+    padding-bottom: 10px;
+
+
+
+}
+
+.cardImage {
+    width: 545px;
+    height: 484px;
+   
+    background-size: cover;
+    border-radius: 50px;
+
+
+
+}
+.cardImage img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+
+.readmore {
+    color: #1a1a1a;
+    text-decoration: none;
+    padding: 16px 43px 16px 42px;
+    display: block;
+}
+
+h6 {
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700px;
+    font-size: 1.125rem;
+    line-height: 1.2;
+    margin-block-start: 2.33em;
+    margin-block-end: 2.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.bt{
+    padding: 3px;
+    border-radius: 50px;
+    background-color: #99e54d;
+    margin-bottom: 25px;
+    
+}
