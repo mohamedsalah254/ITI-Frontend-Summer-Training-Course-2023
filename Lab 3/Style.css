@@ -72,13 +72,14 @@
 .cardImage {
     width: 545px;
     height: 484px;
-   
+
     background-size: cover;
     border-radius: 50px;
 
 
 
 }
+
 .cardImage img {
     width: 100%;
     height: 100%;
@@ -103,10 +104,80 @@ h6 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
-.bt{
+
+.bt {
     padding: 3px;
     border-radius: 50px;
     background-color: #99e54d;
     margin-bottom: 25px;
-    
+
+}
+
+.cost {
+    color: #fff;
+    font-weight: 700;
+    font-family: Montserrat, sans-serif;
+    font-size: 3rem;
+    line-height: 1.1
+}
+
+.sc {
+    font-size: 1.125rem;
+    line-height: 1.2;
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.para {
+    margin-left: 0;
+    margin-right: 0;
+    color: #fff;
+    font-size: 1.125rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: left;
+    font-family: Raleway, sans-serif;
+    line-height: 1.6;
+
+
+
+
+}
+
+.imagefrom {
+
+    font-size: 1.125rem;
+    color: #fff;
+    margin: 21px 137px 0 1px;
+
+
+
+}
+
+.cardImage2 {
+    width: 545px;
+    height: 550px;
+
+    background-size: cover;
+    border-radius: 50px;
+    padding-top: 150px;
+
+
+}
+
+.cardImage2 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+
+.ptxt {
+    padding-top: 350px;
 }
